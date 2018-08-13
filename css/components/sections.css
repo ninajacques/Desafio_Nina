@@ -1,0 +1,22 @@
+.sections {
+  padding: 2rem 0;
+}
+.faca-mais {
+  background-color: #EEEEEE;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 28.125rem;
+}
+.voce-no-controle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.collapse-section {
+  background-color: #EEEEEE;
+  align-content: center;
+  box-sizing: border-box;
+}
