@@ -1,1 +1,80 @@
-
+@import "chevron.css";
+.traco-azul {
+  width: 2.75rem;
+  height: .25rem;
+  background-color: #4F5EC7;
+  border-radius: .25rem;
+  margin-bottom: .75rem;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+.decor-nav:hover {
+  background-color: rgba(255,255,255,.75);
+  color: #171B2B;
+  border-radius: .25rem;
+  text-decoration: none;
+  transition: ease-in-out .5s;
+}
+.section-size {
+	min-height: 450px;
+}
+.decor-jumbotron h1 {
+	font-size: 36px;
+}
+.number {
+  font-size: 2.125rem;
+  font-weight: bold;
+  border: 2px solid #4F5EC7;
+  color: #4F5EC7;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  text-align: center;
+}
+.number {
+  font-size: 2.125rem;
+  font-weight: bold;
+  border: 2px solid #4F5EC7;
+  color: #4F5EC7;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.bg-grey {
+	background-color: #EEEEEE;
+}
+.collapse-margin .card {
+	margin-bottom: 16px;
+}
+.collapse-margin .card:last-child {
+	margin-bottom: 0;
+}
+.seta-azul {
+  width: 0;
+  height: 0;
+  border-left: .5rem solid transparent;
+  border-right: .5rem solid transparent;
+  border-bottom: .5rem solid #4F5EC7;
+}
+.collapsed .seta-azul {
+  transform: rotate(180deg);
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #171B2B;
+  color: #FFFFFF;
+  height: 200px;
+}
+footer h3 {
+  margin: 0;
+}
+@media (max-width: 768px) {
+	footer {
+		height: 100px;
+	}
+}
